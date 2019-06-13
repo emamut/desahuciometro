@@ -1,0 +1,15 @@
+.list-group-item {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h4, .value {
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+.value {
+  font-size: 3.2rem;
+}

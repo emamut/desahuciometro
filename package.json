@@ -1,0 +1,19 @@
+{
+  "name": "desahuciometro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files \".\"  --ignore \".git\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emamut/desahuciometro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emamut/desahuciometro/issues"
+  },
+  "homepage": "https://github.com/emamut/desahuciometro#readme"
+}
