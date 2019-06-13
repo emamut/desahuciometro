@@ -16,68 +16,48 @@
     <div class="container">
       <div class="row mt-4">
         <div class="col-md-3">
-          <div class="list-group">
-            <button class="list-group-item list-group-item-action active">
-              Usera y Villaverde
-            </button>
-            <button class="list-group-item list-group-item-action">
-              La Latina
-            </button>
-            <button class="list-group-item list-group-item-action">
-              Vallecas
-            </button>
-            <button class="list-group-item list-group-item-action">
-              Ciudad Lineal
-            </button>
-            <button class="list-group-item list-group-item-action">
-              Chamartin
-            </button>
-            <button class="list-group-item list-group-item-action">
-              Tetuán
-            </button>
-            <button class="list-group-item list-group-item-action">
-              Carabanchel
-            </button>
-            <button class="list-group-item list-group-item-action">
-              Fuencarral
-            </button>
-            <button class="list-group-item list-group-item-action">
-              PAH Centro
-            </button>
-          </div>
+          <div class="list-group"></div>
         </div>
         <div class="col">
           <div class="row">
             <div class="col">
-              <h1 class="text-center mb-2">Usera y Villaverde</h1>
+              <h1 class="text-center mb-2"></h1>
               <img src="./img/city.jpg" alt="" class="text-center img-fluid">
             </div>
           </div>
           <div class="row mt-4">
-            <div class="col-4">
+            <div class="col-4" id="families">
               <span class="value">000 </span>
-              <i class="fas fa-users fa-4x"></i>
+              <i class="fas fa-user-friends fa-4x"></i>
               <h4>Familias afectadas</h4>
             </div>
-            <div class="col-4">
+            <div class="col-4" id="families-childs">
               <span class="value">000 </span>
               <i class="fas fa-users fa-4x"></i>
               <h4>Familias afectadas con hijos</h4>
             </div>
-            <div class="col-4">
+            <div class="col-4" id="childs">
               <span class="value">000 </span>
               <i class="fas fa-child fa-4x"></i>
               <h4>Niños afectados</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <small id="date">Periodo: <span></span> </small>
             </div>
           </div>
         </div>
       </div>
     </div>
   </body>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
 </html>
