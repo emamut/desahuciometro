@@ -18,8 +18,8 @@ function changeValues(id) {
   $('.list-group button:nth-child(' + id + ')').addClass('active')
 
   $('h1').html(item.name)
-  $('#families').find('span').html(item.families)
-  $('#families-childs').find('span').html(item.families_childs)
-  $('#childs').find('span').html(item.childs)
+  $('#families').find('span').html(item.families + ' ')
+  $('#families-childs').find('span').html(item.families_childs + ' ')
+  $('#childs').find('span').html(item.childs + ' ')
   $('#date').find('span').html(item.date)
 }
