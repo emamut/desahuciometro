@@ -1,12 +1,14 @@
 import React from 'react';
-import {Container} from 'reactstrap';
+import {Container, Row} from 'reactstrap';
 
-import Header from './Components/Header';
+import List from './Components/List';
 
 function App() {
   return (
     <Container>
-      <Header></Header>
+      <Row className="mt-4">
+        <List></List>
+      </Row>
     </Container>
   );
 }
