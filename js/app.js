@@ -1,5 +1,11 @@
 $(function () {
-  console.log('data', data)
+  data.unshift({ name: 'TOTALES', families: 0, families_childs: 0, childs: 0, date: '' })
+  $.each(data, function (key, item) {
+    data[0].childs += item.childs
+    data[0].families += item.families
+    data[0].families_childs += item.families_childs
+  })
+
   $.each(data, function (key, item) {
     $('.list-group').append('<button class="list-group-item list-group-item-action" data-id="' + key + '">' + item.name + '</button >')
   })
@@ -21,5 +27,6 @@ function changeValues(id) {
   $('#families').find('span').html(item.families + ' ')
   $('#families-childs').find('span').html(item.families_childs + ' ')
   $('#childs').find('span').html(item.childs + ' ')
+  $('#percentage').html(Math.floor(item.childs / data[0].childs * 100))
   $('#date').find('span').html(item.date)
 }
