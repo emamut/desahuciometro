@@ -53,7 +53,7 @@ var data = [
     families: 30,
     families_childs: 30,
     childs: 60,
-    date: ''
+    date: '2019'
   },
   {
     name: 'PAH Centro',
