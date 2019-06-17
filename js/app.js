@@ -1,5 +1,5 @@
 $(function () {
-  data.unshift({ name: 'TOTALES', families: 0, families_childs: 0, childs: 0, date: '' })
+  data.unshift({ name: 'TOTAL', families: 0, families_childs: 0, childs: 0, date: '' })
   $.each(data, function (key, item) {
     data[0].childs += item.childs
     data[0].families += item.families
