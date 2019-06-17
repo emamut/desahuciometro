@@ -56,7 +56,7 @@ var data = [
     date: '2019'
   },
   {
-    name: 'PAH Centro',
+    name: 'Centro',
     families: 0,
     families_childs: 0,
     childs: 0,
