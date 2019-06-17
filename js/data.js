@@ -50,9 +50,9 @@ var data = [
   },
   {
     name: 'Fuencarral',
-    families: 0,
-    families_childs: 0,
-    childs: 0,
+    families: 30,
+    families_childs: 30,
+    childs: 60,
     date: ''
   },
   {
