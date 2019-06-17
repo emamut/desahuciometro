@@ -45,7 +45,7 @@ var data = [
     name: 'Carabanchel',
     families: 110,
     families_childs: 110,
-    childs: 108,
+    childs: 110,
     date: '2018-2019'
   },
   {
