@@ -27,6 +27,6 @@ function changeValues(id) {
   $('#families').find('span').html(item.families + ' ')
   $('#families-childs').find('span').html(item.families_childs + ' ')
   $('#childs').find('span').html(item.childs + ' ')
-  $('#percentage').html(Math.floor(item.childs / data[0].childs * 100))
+  $('#percentage').html((item.childs / data[0].childs * 100).toFixed(2))
   $('#date').find('span').html(item.date)
 }
