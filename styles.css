@@ -6,6 +6,11 @@ h1, h2, h4, .value {
   font-family: 'Roboto Slab', sans-serif;
 }
 
+h1 small {
+  color: #A9A9A9;
+  font-size: 1.5rem;
+}
+
 h4 {
   font-size: 1.2rem;
 }
