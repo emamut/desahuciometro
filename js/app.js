@@ -5,6 +5,7 @@ $(function () {
     data[0].families += item.families
     data[0].families_childs += item.families_childs
   })
+  data[0].date = '2015-2019'
 
   $.each(data, function (key, item) {
     $('.list-group').append('<button class="list-group-item list-group-item-action" data-id="' + key + '">' + item.name + '</button >')
