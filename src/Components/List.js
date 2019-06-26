@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, ListGroup, ListGroupItem } from 'reactstrap';
-import data from '../data.json';
 
 class List extends React.Component {
   render() {
@@ -8,8 +7,8 @@ class List extends React.Component {
       <Col md="3">
         <ListGroup>
           {
-            data.map((item, key) =>
-              <ListGroupItem key={key} tag="a" href="#" action>{item.name}</ListGroupItem>
+            this.props.data.map((item, key) =>
+              <ListGroupItem key={key} tag="a" href="#" className={ this.props.id === key ? 'active' : '' } action>{item.name}</ListGroupItem>
             )
           }
         </ListGroup>
