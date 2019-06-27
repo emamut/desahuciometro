@@ -9,10 +9,15 @@ import Title from './Components/Title';
 class App extends React.Component {
   constructor() {
     super()
+    this.changeID = this.changeID.bind(this);
 
     this.state = {
       id: 1
     }
+  }
+
+  changeID(id) {
+    this.setState({ id: id })
   }
 
   render(){
@@ -24,7 +29,7 @@ class App extends React.Component {
           <Title text={title}></Title>
         </Row>
         <Row>
-          <List data={data} id={this.state.id}></List>
+          <List data={data} id={this.state.id} changeID={ this.changeID }></List>
         </Row>
       </Container>
     );
