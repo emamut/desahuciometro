@@ -11,11 +11,7 @@ class List extends React.Component {
         <ListGroup>
           {
             this.props.data.map((item, key) =>
-<<<<<<< HEAD
-              <ListGroupItem key={ key } tag="a" href="#" className={ this.props.id === key ? 'active' : '' } onClick={ this.onClickfn } action>{ item.name }</ListGroupItem>
-=======
               <ListGroupItem key={key} tag="a" href="#" className={ this.props.id === key ? 'active' : '' } onClick={ this.onClickfn } action>{ item.name }</ListGroupItem>
->>>>>>> development
             )
           }
         </ListGroup>
